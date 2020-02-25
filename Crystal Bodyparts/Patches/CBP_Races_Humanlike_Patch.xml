@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Human"]/recipes</xpath>
+	  <value>
+	  <li>InstallCrystalKidney</li>
+	  <li>InstallCrystalLiver</li>
+	  <li>InstallCrystalLung</li>
+	  <li>InstallCrystalStomach</li>
+	  <li>InstallCrystalJaw</li>
+	  <li>InstallCrystalArm</li>
+	  <li>InstallCrystalClaw</li>
+	  <li>InstallCrystalLeg</li>
+	  <li>InstallCrystalSpine</li>
+	  <li>InstallCrystalHeart</li>
+	  <li>InstallCrystalEar</li>
+	  <li>InstallCrystalNose</li>
+	  <li>InstallAdvCrystalEar</li>
+	  <li>InstallAdvCrystalArm</li>
+	  <li>InstallAdvCrystalLeg</li>
+	  <li>InstallCrystalEye</li>
+	  <li>InstallAdvCrystalEye</li>
+	  <li>InstallAdvCrystalJoy</li>
+	  <li>InstallAdvCrystalPain</li>
+	  </value>
+	</Operation> 
+</Patch>

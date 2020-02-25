@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <!--=======Normal===============-->
+	
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalJaw</defName>
+    <label>crystal jaw</label>
+    <labelNoun>a crystal jaw</labelNoun>
+	<spawnThingOnRemoved>CrystalJaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalLung</defName>
+    <label>crystal lung</label>
+    <labelNoun>a crystal lung</labelNoun>
+	<spawnThingOnRemoved>CrystalLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalLiver</defName>
+    <label>crystal liver</label>
+    <labelNoun>a crystal liver</labelNoun>
+	<spawnThingOnRemoved>CrystalLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalKidney</defName>
+    <label>crystal kidney</label>
+    <labelNoun>a crystal kidney</labelNoun>
+	<spawnThingOnRemoved>CrystalKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalStomach</defName>
+    <label>Crystal stomach</label>
+    <labelNoun>a crystal stomach</labelNoun>
+    <spawnThingOnRemoved>CrystalStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalClaw</defName>
+    <label>Crystal claw</label>
+    <labelNoun>a crystal claw</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>18.0</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>CrystalClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalEye</defName>
+    <label>crystal eye</label>
+    <labelNoun>a crystal eye</labelNoun>
+    <spawnThingOnRemoved>CrystalEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalArm</defName>
+    <label>crystal arm</label>
+    <labelNoun>a crystal arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>CrystalArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalLeg</defName>
+    <label>crystal leg</label>
+    <labelNoun>a crystal leg</labelNoun>
+    <spawnThingOnRemoved>CrystalLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalSpine</defName>
+    <label>crystal spine</label>
+    <labelNoun>a crystal spine</labelNoun>
+    <spawnThingOnRemoved>CrystalSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalHeart</defName>
+    <label>crystal heart</label>
+    <labelNoun>a crystal heart</labelNoun>
+    <spawnThingOnRemoved>CrystalHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalEar</defName>
+    <label>crystal ear</label>
+    <labelNoun>a crystal ear</labelNoun>
+    <spawnThingOnRemoved>CrystalEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>CrystalNose</defName>
+    <label>crystal nose</label>
+    <labelNoun>a crystal nose</labelNoun>
+    <spawnThingOnRemoved>CrystalNose</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+  
+  <!--=======Advanced===============-->
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvCrystalEye</defName>
+    <label>adv. crystal eye</label>
+    <labelNoun>an adv. crystal eye</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvCrystalArm</defName>
+    <label>adv. crystal arm</label>
+    <labelNoun>an adv. Crystal arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>AdvCrystalArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvCrystalLeg</defName>
+    <label>adv. crystal leg</label>
+    <labelNoun>an adv. crystal leg</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AdvCrystalEar</defName>
+    <label>adv. crystal ear</label>
+    <labelNoun>an adv. crystal ear</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AdvCrystalJoy</defName>
+    <label>adv. crystal joy</label>
+    <labelNoun>an adv. crystal joy</labelNoun>
+    <stages>
+      <li>
+				<partEfficiencyOffset>-0.2</partEfficiencyOffset>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AdvCrystalJoy</spawnThingOnRemoved>
+  </HediffDef>
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AdvCrystalPain</defName>
+    <label>adv. crystal pain relief</label>
+    <labelNoun>an adv. crystal pain relief</labelNoun>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AdvCrystalPain</spawnThingOnRemoved>
+  </HediffDef>
+
+</Defs>
